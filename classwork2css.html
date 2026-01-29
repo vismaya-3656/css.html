@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model</title>
+    <style>
+        .outer-box {
+            border: 10px solid;
+            padding: 20px;
+            width: 300px;
+            height: 200px;
+            background-color: aquamarine;
+        }
+        .middle-box {
+            border: 5px rgb(100, 0, 100);
+            padding: 16px;
+            height: 100%;
+        }
+        .inner-box{
+            border: 2px hsl(50, 30, 50);
+            padding: 10px;
+            height: 70%;
+            background-color: #ff068f;
+        }
+    </style>
+</head>
+<body>
+    <div class="outer-box">
+        <div class="middle-box">
+            <div class="inner-box">
+            </div>
+         </div>
+    </div>
+    </body>
+</html>
