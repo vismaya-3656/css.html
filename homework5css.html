@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width= device-width, initial-scale=1.0">
+    <title>Blog Post</title>
+    <style>
+    div.container {
+        margin: auto;
+        border: 2px solid;
+        height: 400px;
+        width: 1000px;
+    }
+    .blog-post {
+        width: 80%;
+        padding: 20px;
+        margin: auto;
+    }
+    .author{
+        margin: auto;
+        color: black;
+    }
+    .blog-post p::first-line {
+        font-weight: bold;
+    }
+    .blog-post p::first-letter {
+        color: brown;
+        font-size: x-large;
+    }
+    blockquote::before {
+        content: "' ' ";
+        font-size: x-large;
+    }
+    a:link{
+        color: red;
+    }
+    a:visited{
+        color: green;
+    }
+    a:hover{
+        color: pink;
+        text-decoration: underline;
+    }
+    h4 {
+        display: inline-block;
+        margin-right: 20px;
+    }
+    h4 + h4 {
+        color: rgb(27, 117, 87);
+    }
+    </style>
+</head>
+<body>
+    <div class="container">
+    <div class="blog-post">
+        <h1>Blog post</h1>
+          <div class="author">William Shakespeare</div>
+        <p>The Shakespeare blog contains up to date articles about Shakespeare’s works, his world, and his plays in performance. Started in 2011, there are now hundreds of posts to choose from, and in 2016 it was looked at over 230,000 times.</p>
+        <blockquote>
+            simpicity is the soul of efficiency
+        </blockquote>
+        <p>check out for more info <a href="https://www.bing.com/search?pglt=299&q=pinterest&cvid=39f5a45c30e84052806e25958938b171&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQLhhAMgYIAhBFGDkyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEC4YQDIGCAcQABhAMgYICBAAGEDSAQgxODEyajBqMagCCLACAQ&FORM=ANNTA1&PC=LCTS">link </a></p>
+<h4>overview</h4>
+<h4>details</h4>
+</div>
+</div>
+</body>
+</html>
