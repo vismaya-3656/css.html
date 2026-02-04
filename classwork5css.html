@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple web page</title>
+    <style>
+        .section p::first-line{
+            font-weight: bold;
+        }
+        .section p::first-letter{
+            color: red;
+            font-size: xx-large;
+        }
+         div.header h3 + h3 {
+            color: green;
+        }
+        .link-list ul li:first-child a{
+            color: red;
+        }
+        a:link{
+            color:blue;
+        }
+        a.visited {
+            color: blueviolet;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+    </style>
+</head>
+<body>
+    <div class="section">
+        <h2>Article section</h2>
+        <P>This is the first paragraph in this section</P>
+        <p>This is the second paragraph</p>
+        <div class="header">
+            <h3>First Heading</h3>
+            <h3>Second Heading</h3>
+        </div>
+        <div class="link-list">
+            <ul>
+                <li><a href="https://www.bing.com/search?pglt=299&q=pinterest&cvid=39f5a45c30e84052806e25958938b171&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQLhhAMgYIAhBFGDkyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEC4YQDIGCAcQABhAMgYICBAAGEDSAQgxODEyajBqMagCCLACAQ&FORM=ANNTA1&PC=LCTS">link 1</a></li>
+                <li><a href="https://www.bing.com/search?pglt=299&q=pinterest&cvid=39f5a45c30e84052806e25958938b171&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQLhhAMgYIAhBFGDkyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEC4YQDIGCAcQABhAMgYICBAAGEDSAQgxODEyajBqMagCCLACAQ&FORM=ANNTA1&PC=LCTS">link 2</a></li>
+                <li><a href="https://www.bing.com/search?pglt=299&q=pinterest&cvid=39f5a45c30e84052806e25958938b171&gs_lcrp=EgRlZGdlKgkIABBFGDsY-QcyCQgAEEUYOxj5BzIGCAEQLhhAMgYIAhBFGDkyBggDEAAYQDIGCAQQABhAMgYIBRAAGEAyBggGEC4YQDIGCAcQABhAMgYICBAAGEDSAQgxODEyajBqMagCCLACAQ&FORM=ANNTA1&PC=LCTS">link 3</a></li>
+            </ul>
+        </div>
+</body>
+</html>
