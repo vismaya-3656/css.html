@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Featured blog section</title>
+    <style>
+
+    .featured-blog {
+        padding: 20px;
+    }
+     .blog-post {
+        width: 30%;
+        padding: 10px;
+        border: 1px solid;
+     }
+     .blog-post img {
+        height: auto;
+        width: 100%;
+     }
+     a[href^="https"] {
+        color: red;
+        font-weight: bold;
+     }
+     img[src$=".jpg"] {
+        border-radius: 0 15px 0 15px;
+     }
+     @media (max-width:600px){
+        .blog-post {
+            width: 100%;
+            font-size: 14px;
+        }
+     }
+     @media (orientation: portrait) {
+        .featured-blog {
+            background-color: lightyellow;
+        }
+     }
+    </style>
+</head>
+<body>
+    <div class="featured-blog">
+    <div class="blog-post">
+<h3>Blog Post 1</h3>
+<img src="https://tse2.mm.bing.net/th/id/OIP.B39-1EvwOFXOffOfIKZT0AHaEK?rs=1&pid=ImgDetMain&o=7&rm=3">
+<p>Welcome to our new blog series</p>
+<a href="https://example.com/read-more">read more</a>
+</div>
+<div class="blog-post">
+    <h3>Blog Post 2</h3>
+    <img src="https://images.pexels.com/photos/7476036/pexels-photo-7476036.jpeg?cs=srgb&dl=pexels-skyler-ewing-266953-7476036.jpg&fm=jpg">
+    <p>Here's a great article about certain topics</p>
+    <a href="https://example.com/read-more">read more</a>
+    </div>
+    <div class="blog-post">
+        <h3>Blog Post 3</h3>
+        <img src="https://assets.dewatermark.ai/images/watermark-remover/new/featureComparison/after_3.webp">
+        <p>Welcome to new blog series</p>
+        <a href="https://example.com/read-more">read more</a>
+        </div>
+        </div> 
+</body> 
+</html>
